@@ -4,8 +4,6 @@ This Python code implements a linear optimization model to solve the following p
 
 **Problem**
 
-Here's the text formatted for a GitHub README:
-Problem Statement:
 Sanders Fishing Supply of Naples, Florida, manufactures a variety of fishing equipment, which it sells throughout the United States. For the next three months, Sanders estimates demand for a particular product at 110, 155, and 160 units, respectively. Sanders can supply this demand by producing on regular time or overtime. Because of other commitments and anticipated cost increases in month 3, the production capacities in units and the production costs per unit are as follows:
 | Month | Production Type | Capacity | Cost/unit |
 |---|---|---|---|
