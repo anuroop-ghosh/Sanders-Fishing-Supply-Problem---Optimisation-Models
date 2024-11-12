@@ -7,14 +7,15 @@ This Python code implements a linear optimization model to solve the following p
 Here's the text formatted for a GitHub README:
 Problem Statement:
 Sanders Fishing Supply of Naples, Florida, manufactures a variety of fishing equipment, which it sells throughout the United States. For the next three months, Sanders estimates demand for a particular product at 110, 155, and 160 units, respectively. Sanders can supply this demand by producing on regular time or overtime. Because of other commitments and anticipated cost increases in month 3, the production capacities in units and the production costs per unit are as follows:
-| Month | Production | Capacity | Cost/unit |
+| Month | Production Type | Capacity | Cost/unit |
 |---|---|---|---|
-| Month 1 - regular | 85 | $45.00 |  |
-| Month 1 - overtime | 115 | $55.00 |  |
-| Month 2 - regular | 130 | $45.00 |  |
-| Month 2 - overtime | 145 | $70.00 |  |
-| Month 3 - regular | 130 | $75.00 |  |
-| Month 3 - overtime | 25 | $100.00 |  |
+| Month 1 | Regular | 85 | $45.00 |
+| Month 1 | Overtime | 115 | $55.00 |
+| Month 2 | Regular | 130 | $45.00 |
+| Month 2 | Overtime | 145 | $70.00 |
+| Month 3 | Regular | 130 | $75.00 |
+| Month 3 | Overtime | 25 | $100.00 |
+
 Inventory may be carried from one month to the next, but the holding cost is $12 per unit per month.
 Objective:
 Determine the minimal cost of meeting demands in the next three months.
